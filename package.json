@@ -1,0 +1,24 @@
+{
+  "name": "dcbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "wokcommands": "^1.5.3"
+  }
+}
